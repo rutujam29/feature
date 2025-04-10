@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- AOS animation CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .skill-item {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.4s;
+    }
+
+    .skill-item:hover {
+      transform: translateY(-10px);
+    }
+
+    .skills i {
+      font-size: 36px;
+      color: #2575fc;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #212529;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .section-heading {
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Your Name</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <h1 class="display-4" data-aos="fade-up">Hi, I'm Your Name</h1>
+    <p class="lead" data-aos="fade-up" data-aos-delay="200">Frontend Developer | UI/UX Designer | Java Enthusiast</p>
+    <a href="#contact" class="btn btn-light mt-3" data-aos="fade-up" data-aos-delay="400">Contact Me</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5">
+  <div class="container" data-aos="fade-up">
+    <h2 class="section-heading">About Me</h2>
+    <p>I’m a creative and detail-oriented web developer with experience in HTML, CSS, JavaScript, Bootstrap, and Java. I love building interactive, user-centered websites.</p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-heading text-center mb-4" data-aos="fade-up">My Skills</h2>
+      <div class="row text-center g-4 skills">
+  
+        <!-- Skill: HTML5 -->
+        <div class="col-md-3 col-6" data-aos="zoom-in">
+          <div class="skill-item">
+            <i class="fa-brands fa-html5 fa-3x"></i>
+            <h6 class="mt-3">HTML5</h6>
+          </div>
+        </div>
+  
+        <!-- Skill: CSS3 -->
+        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="skill-item">
+            <i class="fa-brands fa-css3-alt fa-3x"></i>
+            <h6 class="mt-3">CSS3</h6>
+          </div>
+        </div>
+  
+        <!-- Skill: Bootstrap -->
+        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="200">
+          <div class="skill-item">
+            <i class="fa-brands fa-bootstrap fa-3x"></i>
+            <h6 class="mt-3">Bootstrap</h6>
+          </div>
+        </div>
+  
+        <!-- Skill: JavaScript -->
+        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="300">
+          <div class="skill-item">
+            <i class="fa-brands fa-square-js fa-3x"></i>
+            <h6 class="mt-3">JavaScript</h6>
+          </div>
+        </div>
+  
+        <!-- Skill: Java -->
+        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="400">
+          <div class="skill-item">
+            <i class="fa-brands fa-java fa-3x"></i>
+            <h6 class="mt-3">Java</h6>
+          </div>
+        </div>
+  
+        <!-- Skill: React -->
+        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="500">
+          <div class="skill-item">
+            <i class="fa-brands fa-react fa-3x"></i>
+            <h6 class="mt-3">React</h6>
+          </div>
+        </div>
+  
+        <!-- Skill: Git -->
+        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="600">
+          <div class="skill-item">
+            <i class="fa-brands fa-git-alt fa-3x"></i>
+            <h6 class="mt-3">Git</h6>
+          </div>
+        </div>
+  
+        <!-- Skill: Figma -->
+        <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="700">
+          <div class="skill-item">
+            <i class="fa-brands fa-figma fa-3x"></i>
+            <h6 class="mt-3">Figma</h6>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Contact -->
+<section id="contact" class="py-5">
+  <div class="container" data-aos="fade-up">
+    <h2 class="section-heading mb-3">Contact Me</h2>
+    <p>Email: your.email@example.com</p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+  </div>
+</section>
+<!-- Resume Section -->
+<section id="resume" class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-heading mb-3">Download My Resume</h2>
+      <p>Feel free to download my resume for more details on my experience and skills!</p>
+      <!-- Replace 'your-resume.pdf' with your actual resume file URL -->
+      <a href="your-resume.pdf" class="btn btn-primary" download="Your_Name_Resume.pdf">Download Resume</a>
+    </div>
+  </section>
+  
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- JS: Bootstrap, AOS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
